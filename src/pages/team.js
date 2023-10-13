@@ -1,8 +1,8 @@
-import React from 'react';
+/* eslint-disable max-len */
 import { graphql } from 'gatsby';
-import SEO from '../components/SEO';
+import React from 'react';
 import Layout from '../components/Layout';
-import Call from '../components/Call';
+import SEO from '../components/SEO';
 
 const Team = props => {
   const team = props.data.team.edges;
@@ -41,8 +41,8 @@ const Team = props => {
                 <div className="team-meta">
                   <h2 className="team-name">{node.frontmatter.title}</h2>
                   <p className="team-description">{node.frontmatter.jobtitle}</p>
-                  {node.frontmatter.linkedin && (
-                    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
+                  {node.frontmatter.linkedinurl && (
+                    <a target="_blank" href={node.frontmatter.linkedinurl} rel="noreferrer">LinkedIn</a>
                   )}
                 </div>
                 <div className="team-content">
@@ -64,8 +64,8 @@ const Team = props => {
                 <div className="team-meta">
                   <h2 className="team-name">{node.frontmatter.title}</h2>
                   <p className="team-description">{node.frontmatter.jobtitle}</p>
-                  {node.frontmatter.linkedin && (
-                    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
+                  {node.frontmatter.linkedinurl && (
+                    <a target="_blank" vhref={node.frontmatter.linkedinurl} rel="noreferrer">LinkedIn</a>
                   )}
                 </div>
               </div>
@@ -82,12 +82,12 @@ export const query = graphql`
   query TeamQuery {
     team: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/team\/.*/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___weight], order: ASC }
     ) {
       edges {
         node {
           id
-          excerpt
+          excerpt(pruneLength: 1000)
           fields {
             slug
           }
@@ -97,6 +97,7 @@ export const query = graphql`
             image
             jobtitle
             linkedinurl
+            weight
           }
         }
       }

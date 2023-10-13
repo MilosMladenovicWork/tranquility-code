@@ -1,17 +1,12 @@
 ---
-path: '/contact'
-title: 'Contact'
+path: "/contact"
+title: "Contact"
 date: 2018-02-22T17:01:34+07:00
 template: "contact"
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+Ready to embark on your digital journey with **TranquilityCode**? We're just a message away. Feel free to reach out to us with your questions, ideas, or project inquiries.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+We're passionate about crafting tailored digital solutions and can't wait to hear from you. Let's connect and transform your web presence into something extraordinary.
+
+We're here to make your digital dreams a reality. Don't hesitate, drop us a line, and let's get started.
