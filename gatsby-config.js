@@ -2,8 +2,8 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif Theme',
-    description: 'my theme'
+    title: 'TranquilityCode',
+    description: 'Crafting digital excellence: Tailored solutions, security, performance, and stunning design await.'
   },
   plugins: [
     'gatsby-plugin-sass',

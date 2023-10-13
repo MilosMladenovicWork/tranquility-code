@@ -1,10 +1,10 @@
 ---
-title: 'Home'
+title: "Home"
 intro_image: "/images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Gatsby Business Theme.
+# Crafting Custom Web Excellence: **Fast**, **Reliable** Solutions for Your **Unique** Needs
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Tailored web solutions, fast and reliable. We craft web applications for your unique needs, providing tranquility in every project. Contact us for custom web development.

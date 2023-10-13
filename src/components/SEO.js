@@ -1,6 +1,6 @@
+import { StaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
 import favicon from '../../static/favicon-32x32.svg';
 
 const SEO = props => (
@@ -18,7 +18,9 @@ const SEO = props => (
           link={[
             { rel: 'shortcut icon', type: 'image/svg', href: `${favicon}` }
           ]}
-        />
+        >
+          {props.description && <meta name="description" content={props.description} />}
+        </Helmet>
       );
     }}
   />

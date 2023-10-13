@@ -1,10 +1,10 @@
 ---
-title: 'Services'
+title: "Services"
 intro_image: "/images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Services that grow with your business
+# Empowering Your Digital Journey
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+At TranquilityCode, we're passionate about crafting digital excellence. Our expertise spans a wide range of services, from building robust NodeJS backends to delivering full-stack solutions with NodeJS and React (Gatsby.js, Next.js). We prioritize speed, security, and stunning user experiences while seamlessly integrating services for web excellence. Join us in your journey towards digital success.
