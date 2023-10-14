@@ -11,7 +11,7 @@ const Team = props => {
 
   return (
     <Layout bodyClass="page-teams">
-      <SEO title="Team" />
+      <SEO title={intro.frontmatter.title} description={intro.excerpt} />
 
       <div className="intro">
         <div className="container">
@@ -104,6 +104,7 @@ export const query = graphql`
     }
     intro: markdownRemark(fileAbsolutePath: {regex: "/(team.md)/"}) {
       html
+      excerpt(pruneLength: 1000)
       frontmatter {
         image
         intro_image

@@ -1,12 +1,13 @@
-import React from 'react';
 import { graphql } from 'gatsby';
+import React from 'react';
 import Layout from '../components/Layout';
 
 const Team = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
-  const { html } = data.markdownRemark;
+  const { html, excerpt } = data.markdownRemark;
   return (
     <Layout bodyClass="page-team-single">
+      <SEO title={title} description={excerpt}/>
       <div className="container pb-6 pt-6 pt-md-10 pb-md-10">
         <div className="row justify-content-start">
           <div className="col-12 col-md-8">
@@ -31,6 +32,7 @@ export const query = graphql`
         slug
       }
       html
+      excerpt(pruneLength: 1000)
     }
   }
 `;

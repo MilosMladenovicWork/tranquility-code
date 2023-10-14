@@ -32,11 +32,15 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: guid || 'UA-XXX-1',
-        // Puts tracking script in the head instead of the body
-        head: false
+        trackingIds: [
+          'G-RLMZGY152T' // Google Analytics / GA
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: false
+        }
       }
     },
     {

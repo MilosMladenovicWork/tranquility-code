@@ -1,7 +1,7 @@
-import React from 'react';
 import { Link, graphql } from 'gatsby';
-import SEO from '../components/SEO';
+import React from 'react';
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
 const Services = props => {
   const services = props.data.services.edges;
@@ -10,7 +10,7 @@ const Services = props => {
 
   return (
     <Layout bodyClass="page-services">
-      <SEO title="Services" />
+      <SEO title={intro.frontmatter.title} description={intro.excerpt} />
 
       <div className="intro">
         <div className="container">
@@ -68,6 +68,7 @@ export const query = graphql`
     }
     intro: markdownRemark(fileAbsolutePath: {regex: "/(services.md)/"}) {
       html
+      excerpt(pruneLength: 1000)
       frontmatter {
         title
         image

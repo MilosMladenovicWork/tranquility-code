@@ -1,6 +1,5 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
-import Helmet from 'react-helmet';
 import Call from '../components/Call';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -14,13 +13,7 @@ const Home = props => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title={site.title} />
-      <Helmet>
-        <meta
-          name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
-        />
-      </Helmet>
+      <SEO title={`${site.title} - ${intro.frontmatter.title}`} description={intro.excerpt} />
 
       <div className="intro">
         <div className="container">
@@ -114,6 +107,7 @@ export const query = graphql`
       fileAbsolutePath: {regex: "/content/index.md/"}
     ) {
         html
+        excerpt(pruneLength: 1000)
         frontmatter {
           image
           intro_image
