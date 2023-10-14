@@ -1,5 +1,5 @@
-import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import React from 'react';
 import Social from './Social';
 
 const SubFooter = props => {
