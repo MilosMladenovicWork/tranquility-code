@@ -10,7 +10,7 @@ Welcome to **TranquilityCode**! We are more than just a web development agency; 
 
 ## Our Profound Expertise
 
-- **NodeJS-Powered Backends:** We're specialists in creating powerful backend applications using NodeJS. Our goal is not just to deliver code but to ensure that every application performs seamlessly and scales effortlessly. You can trust us with your data, as we excel in both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases.
+- **NodeJS-Powered Backends:** We're specialists in creating powerful backend applications using NodeJS. Our goal is not just to deliver code but to ensure that every application performs seamlessly and scales effortlessly. You can trust us with your data, as we excel in both SQL (PostgreSQL) and NoSQL (MongoDB, Redis) databases.
 
 - **Fullstack Mastery:** Our expertise extends to full-stack solutions, seamlessly merging frontend and backend development. NodeJS and React (Gatsby.js, Next.js) are our trusted tools for creating high-performance web applications that leave a lasting impact.
 

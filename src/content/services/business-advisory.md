@@ -6,7 +6,7 @@ draft: false
 weight: 2
 ---
 
-Harness NodeJS for expertly crafted, scalable ExpressJS and NestJS backend solutions. Our database expertise includes SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) for secure, efficient data storage.
+Harness NodeJS for expertly crafted, scalable ExpressJS and NestJS backend solutions. Our database expertise includes SQL (PostgreSQL) and NoSQL (MongoDB, Redis) for secure, efficient data storage.
 
 ![NodeJS Backends](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 

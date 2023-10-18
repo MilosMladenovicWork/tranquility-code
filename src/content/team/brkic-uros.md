@@ -9,4 +9,4 @@ promoted: true
 weight: 2
 ---
 
-Uros Brkic is our Backend Development Specialist, dedicated to creating robust, secure, and efficient backend solutions. With extensive knowledge of NodeJS and various database systems, including SQL (PostgreSQL, MySQL) and NoSQL (MongoDB), Uros ensures that your data is in safe hands.
+Uros Brkic is our Backend Development Specialist, dedicated to creating robust, secure, and efficient backend solutions. With extensive knowledge of NodeJS and various database systems, including SQL (PostgreSQL) and NoSQL (MongoDB, Redis), Uros ensures that your data is in safe hands.
