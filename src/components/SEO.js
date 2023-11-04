@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { StaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
@@ -20,6 +21,7 @@ const SEO = props => (
           ]}
         >
           {props.description && <meta name="description" content={props.description} />}
+          <meta name="keywords" content="applications, apps, backend, backends, contact, craft, crafted, crafting, custom, database, development, excellence, experience, expertise, expressjs, fast, fullstack, gatsby, integrate, integrations, needs, nestjs, nodejs, performance, postgresql, project, react, reliable, scalable, seamlesly, security, services, solutions, tailored, team, tranquility, tranquilitycode, unique" />
         </Helmet>
       );
     }}

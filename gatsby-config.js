@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'TranquilityCode',
-    description: 'Crafting digital excellence: Tailored solutions, security, performance, and stunning design await.'
+    description: 'Crafting digital excellence: Tailored solutions, security, performance, and stunning design await.',
+    siteUrl: `https://www.tranquilitycode.com`
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -49,6 +50,8 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
+    'gatsby-plugin-sitemap',
+    { resolve: 'gatsby-plugin-robots-txt', options: { sitemap: `https://www.tranquilitycode.com/sitemap.xml` } }
   ]
 };
